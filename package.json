@@ -1,6 +1,6 @@
 {
   "name": "marked-text-renderer",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Renderer for marked outputting plain text that can easily be fed to a search indexer",
   "main": "index.js",
   "scripts": {
