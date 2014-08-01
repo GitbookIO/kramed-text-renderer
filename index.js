@@ -78,6 +78,12 @@ TextRenderer.prototype.image = function(href, title, text) {
     return [title, text].filter(Boolean).join(' ');
 };
 
+TextRenderer.prototype.math = noop;
+
+function noop() {
+    return '\n';
+}
+
 // Exports
 module.exports = TextRenderer;
 
