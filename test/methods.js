@@ -1,14 +1,14 @@
 var assert = require('assert');
 
-var marked = require('marked');
+var kramed = require('kramed');
 
 var renderer = require('../');
 
 
 
 describe('Text renderer', function() {
-    it("should have all methods that marked's renderer has", function() {
-        var m1 = methods(marked.Renderer.prototype);
+    it("should have all methods that kramed's renderer has", function() {
+        var m1 = methods(kramed.Renderer.prototype);
         var m2 = methods(renderer.prototype);
 
         // Ensure arrays are sorted

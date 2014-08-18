@@ -1,22 +1,22 @@
 {
-  "name": "marked-text-renderer",
+  "name": "kramed-text-renderer",
   "version": "0.1.0",
-  "description": "Renderer for marked outputting plain text that can easily be fed to a search indexer",
+  "description": "Renderer for kramed outputting plain text that can easily be fed to a search indexer",
   "main": "index.js",
   "scripts": {
     "test": "export TESTING=true; mocha --reporter list"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/GitbookIO/marked-text-renderer.git"
+    "url": "https://github.com/GitbookIO/kramed-text-renderer.git"
   },
   "dependencies": {},
   "devDependencies": {
-    "marked": "0.3.2",
+    "kramed": "0.4.0",
     "mocha": "1.18.2"
   },
   "keywords": [
-    "marked",
+    "kramed",
     "text",
     "renderer",
     "gitbook"
@@ -24,7 +24,7 @@
   "author": "Aaron O'Mullan <aaron.omullan@friendco.de>",
   "license": "Apache v2",
   "bugs": {
-    "url": "https://github.com/GitbookIO/marked-text-renderer/issues"
+    "url": "https://github.com/GitbookIO/kramed-text-renderer/issues"
   },
-  "homepage": "https://github.com/GitbookIO/marked-text-renderer"
+  "homepage": "https://github.com/GitbookIO/kramed-text-renderer"
 }

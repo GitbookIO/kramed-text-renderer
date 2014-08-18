@@ -2,19 +2,19 @@ var fs = require('fs');
 var path = require('path');
 var assert = require('assert');
 
-var marked = require('marked');
+var kramed = require('kramed');
 
 var renderer = require('../');
 
 
 var CONTENT = fs.readFileSync(path.join(__dirname, './fixtures/PAGE.md'), 'utf8');
-var LEXED = marked.lexer(CONTENT);
+var LEXED = kramed.lexer(CONTENT);
 
 // Options to parser
-var options = Object.create(marked.defaults);
+var options = Object.create(kramed.defaults);
 options.renderer = renderer();
 
-var RENDERED = marked.parser(LEXED, options);
+var RENDERED = kramed.parser(LEXED, options);
 
 
 describe('Text renderer', function() {
