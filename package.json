@@ -1,6 +1,6 @@
 {
   "name": "kramed-text-renderer",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Renderer for kramed outputting plain text that can easily be fed to a search indexer",
   "main": "index.js",
   "scripts": {
