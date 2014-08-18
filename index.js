@@ -78,7 +78,13 @@ TextRenderer.prototype.image = function(href, title, text) {
     return [title, text].filter(Boolean).join(' ');
 };
 
+
+TextRenderer.prototype.footnote = function(footnote, text) {
+    return '\n'+text+'\n';
+};
+
 TextRenderer.prototype.math = noop;
+TextRenderer.prototype.reffn = noop;
 
 function noop() {
     return '\n';
